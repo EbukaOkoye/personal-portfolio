@@ -43,7 +43,7 @@ function Navigation() {
 
   return (
     <Navbar bg="light" expand="lg" className={`${scrolled ? "scrolled" : ""}`}>
-      <Container className="d-flex justify-content-between">
+      <Container className="">
         <Navbar.Brand className="" href="#home">
           <h2 className="title">{htmlCode}</h2>
         </Navbar.Brand>
