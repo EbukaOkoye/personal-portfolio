@@ -52,7 +52,7 @@ function Navigation() {
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
 
-        <Navbar.Collapse id="basic-navbar-nav" className="ms-3">
+        <Navbar.Collapse id="basic-navbar-nav" className="mx-4">
           <Nav className="me-auto">
             <Nav.Link
               href="#home"
