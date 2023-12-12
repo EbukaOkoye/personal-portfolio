@@ -15,6 +15,7 @@ import instagram from "../../assets/instagram-react.png";
 import oculus from "../../assets/vr-oculus.png";
 import login from "../../assets/loginjs.png";
 import colorSharp2 from "../../assets/color-sharp2.png";
+import resumePdf from '../../resume/Chukwuebuka Ifenna Okoye Tech CV.pdf';
 
 function Projects() {
   const projects = [
@@ -120,8 +121,11 @@ function Projects() {
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="third">
-                  <a href="https://app.netlify.com/teams/ifennawisdom/sites">
-                    Projects hosted on Netlify
+                  <p>
+                    My resume is available for your perusal. 
+                  </p>
+                  <a className="live_link" href={resumePdf} download={resumePdf}>
+                   click here to download my resume
                   </a>
                 </Tab.Pane>
               </Tab.Content>
