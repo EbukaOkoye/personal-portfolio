@@ -44,7 +44,7 @@ function Navigation() {
   return (
     <Navbar bg="light" expand="lg" className={`${scrolled ? "scrolled" : ""}`}>
       <Container className="">
-        <Navbar.Brand className="" href="#home">
+        <Navbar.Brand className="mx-4" href="#home">
           <h2 className="title">{htmlCode}</h2>
         </Navbar.Brand>
 
