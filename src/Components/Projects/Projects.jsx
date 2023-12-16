@@ -15,7 +15,7 @@ import instagram from "../../assets/instagram-react.png";
 import oculus from "../../assets/vr-oculus.png";
 import login from "../../assets/loginjs.png";
 import colorSharp2 from "../../assets/color-sharp2.png";
-import resumePdf from '../../resume/Chukwuebuka Ifenna Okoye Tech CV.pdf';
+import resumePdf from "../../resume/Chukwuebuka Ifenna Okoye Tech CV.pdf";
 
 function Projects() {
   const projects = [
@@ -73,7 +73,7 @@ function Projects() {
           <Col>
             <h2>Projects</h2>
 
-            <p>
+            <p className="projext_text">
               These are some of the little projects I have done. Some are quite
               interesting, while some are just basic stuff. I have other
               projects I am working on and will update them as soon as I am done
@@ -82,22 +82,24 @@ function Projects() {
             </p>
 
             <Tab.Container id="project-tabs" defaultActiveKey="first">
-              <Nav
-                variant="pills"
-                className="nav-pills mb-5 justify-content-center align-items-center"
-                id="pills"
-              >
-                <Nav.Item>
-                  <Nav.Link eventKey="first">Project Snippet</Nav.Link>
-                </Nav.Item>
-
-                <Nav.Item>
-                  <Nav.Link eventKey="second">GitHub Profile Link</Nav.Link>
-                </Nav.Item>
-
-                <Nav.Item>
-                  <Nav.Link eventKey="third">Resume Download</Nav.Link>
-                </Nav.Item>
+              <Nav variant="pills" className="nav-pills mb-5" id="pills">
+                <Row className="mx-auto">
+                  <Col xs={4}>
+                    <Nav.Item>
+                      <Nav.Link eventKey="first">Project Snippet</Nav.Link>
+                    </Nav.Item>
+                  </Col>
+                  <Col xs={4}>
+                    <Nav.Item>
+                      <Nav.Link eventKey="second">GitHub Profile Link</Nav.Link>
+                    </Nav.Item>
+                  </Col>
+                  <Col xs={4}>
+                    <Nav.Item>
+                      <Nav.Link eventKey="third">Resume Download</Nav.Link>
+                    </Nav.Item>
+                  </Col>
+                </Row>
               </Nav>
 
               <Tab.Content>
@@ -115,17 +117,23 @@ function Projects() {
                     nice projects can be found in my Github address in the link
                     below
                   </p>
-                  <a href="https://github.com/EbukaOkoye" target="_blank">
+                  <a
+                    className="live_link"
+                    href="https://github.com/EbukaOkoye"
+                    target="_blank"
+                  >
                     Github Repositories
                   </a>
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="third">
-                  <p>
-                    My resume is available for your perusal. 
-                  </p>
-                  <a className="live_link" href={resumePdf} download={resumePdf}>
-                   click here to download my resume
+                  <p>My resume is available for your perusal.</p>
+                  <a
+                    className="live_link"
+                    href={resumePdf}
+                    download={resumePdf}
+                  >
+                    click here to download my resume
                   </a>
                 </Tab.Pane>
               </Tab.Content>

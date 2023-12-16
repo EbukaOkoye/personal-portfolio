@@ -1,7 +1,7 @@
 #root {
   width: 100% !important; 
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -266,6 +266,7 @@ nav.navbar .navbar-toggler:focus {
 .skills {
   padding: 0 0 50px 0;
   position: relative;
+  width: 100%;
 }
 
 
@@ -288,6 +289,10 @@ nav.navbar .navbar-toggler:focus {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px 0 75px 0;
+}
+
+.item h5 {
+  padding-top: 1rem;
 }
 
 .skill-slider {
@@ -316,7 +321,11 @@ nav.navbar .navbar-toggler:focus {
 .project {
   padding: 80px 0;
   position: relative;
-  background: black;
+  width: 100%;
+}
+
+.projext_text {
+  text-align: justify;
 }
 
 .project h2 {
@@ -331,20 +340,14 @@ nav.navbar .navbar-toggler:focus {
   letter-spacing: 0.8px;
   margin: 14px auto 30px auto;
   text-align: center;
-  width: 56%;
 }
 
 .project .nav.nav-pills {
-  width: 72%;
-  margin: 0 auto;
-  border-radius: 50px;
-  background: rgb(255, 255, 255 / 10%);
-  overflow: hidden;
+  width: 100%;
+  padding: .5rem;
+  border-radius: 0;
 }
 
-.project .nav.nav-pills .nav-item {
-  width: 33.33333%;
-}
 
 .project .nav.nav-pills .nav-link {
   background: transparent;
@@ -360,40 +363,10 @@ nav.navbar .navbar-toggler:focus {
   z-index: 0;
 }
 
-.project .nav.nav-pills .nav-link::before {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 100%;
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FB0 111.58%);
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transition: 0.3s ease-in-out;
-}
-
-.project .nav.nav-pills .nav-link.active::before {
-  width: 100% !important;
-}
-
 .project .nav.nav-pills .nav-link.active {
-  border: 1px solid rgba(225, 225, 225, 1);
+  color: wheat !important;
 }
 
-.nav-link#projects-tabs-tab-first {
-  border: 1px solid rgba(225, 225, 225, 0.5);
-  border-radius: 55px 0px 0px 55px;
-}
-
-.nav-link#projects-tabs-tab-second {
-  border-top: 1px solid rgba(225, 225, 225, 0.5);
-  border-bottom: 1px solid rgba(225, 225, 225, 0.5);;
-}
-
-.nav-link#projects-tabs-tab-third {
-  border: 1px solid rgba(225, 225, 225, 0.5);
-  border-radius: 0 55px 55px 0;
-}
 
 .proj-imgbx {
   position: relative;
@@ -430,6 +403,7 @@ nav.navbar .navbar-toggler:focus {
   transition: 0.5s ease-in-out;
   opacity: 0;
   width: 100%;
+  padding: 1rem;
 }
 
 .proj-imgbx:hover .proj-imgtxtx {
@@ -438,10 +412,16 @@ nav.navbar .navbar-toggler:focus {
 }
 
 .proj-imgtxtx h4 {
-  font-size: 30px;
+  font-size: 15px;
   font-weight: 700;
   letter-spacing: 0.8px;
-  line-height: 1.1em;
+  line-height: 1rem;
+}
+
+.proj-imgtxtx span,
+.proj-imgtxtx a {
+  font-size: 12px;
+  margin-top: 1rem;
 }
 
 
@@ -451,6 +431,8 @@ nav.navbar .navbar-toggler:focus {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+
+
 
 .background-image-right {
   top: 20%;
@@ -470,6 +452,7 @@ nav.navbar .navbar-toggler:focus {
 .live_link:hover {
   color: orange;
 }
+
 
 
 
@@ -556,14 +539,6 @@ nav.navbar .navbar-toggler:focus {
 
 
 
-
-
-
-
-
-
-
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -585,4 +560,59 @@ nav.navbar .navbar-toggler:focus {
 
 .read-the-docs {
   color: #888;
+}
+
+
+@media screen and (min-width: 768px) {
+  .project .nav.nav-pills {
+    background: rgb(255, 255, 255 / 10%);
+  }
+
+  .project .nav.nav-pills .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FB0 111.58%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .project .nav.nav-pills .nav-link.active::before {
+    width: 100% !important;
+  }
+  
+  .project .nav.nav-pills .nav-link.active {
+    border: 1px solid rgba(225, 225, 225, 1);
+    color: white !important;
+  }
+
+  .nav-link#projects-tabs-tab-first {
+    border: 1px solid rgba(225, 225, 225, 0.5);
+    border-radius: 55px 0px 0px 55px;
+  }
+  
+  .nav-link#projects-tabs-tab-second {
+    border-top: 1px solid rgba(225, 225, 225, 0.5);
+    border-bottom: 1px solid rgba(225, 225, 225, 0.5);;
+  }
+  
+  .nav-link#projects-tabs-tab-third {
+    border: 1px solid rgba(225, 225, 225, 0.5);
+    border-radius: 0 55px 55px 0;
+  }
+
+  .proj-imgtxtx h4 {
+    font-size: 30px;
+    line-height: 1.1em;
+    margin-bottom: 1.2rem;
+  }
+  
+  .proj-imgtxtx span,
+  .proj-imgtxtx a {
+    font-size: 15px;
+  }
+  
 }

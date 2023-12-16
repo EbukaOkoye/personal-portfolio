@@ -50,17 +50,17 @@ function Skills() {
                 <div className="item">
                   <img src={meter1} alt="image" />
 
-                  <h5>Web Development</h5>
+                  <h5>HTML/CSS</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="image" />
 
-                  <h5>Web Design</h5>
+                  <h5>Reactjs</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="image" />
 
-                  <h5>Web Development</h5>
+                  <h5>Javascript</h5>
                 </div>
               </Carousel>
             </div>

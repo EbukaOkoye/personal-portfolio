@@ -15,7 +15,7 @@ function Footer() {
   return (
     <footer className="footer p-4">
       <Container>
-        <Row className="align-items-center">
+        <Row className="align-items-center gap-2">
           <Col sm={6}>
             <h2 className="title">{htmlCode}</h2>
           </Col>
