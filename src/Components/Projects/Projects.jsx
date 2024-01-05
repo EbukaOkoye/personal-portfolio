@@ -24,7 +24,7 @@ function Projects() {
       description:
         "Cloning Medium's Landing page, the news section, HTML, CSS only project",
       imgUrl: medium2,
-      liveLink: "",
+      liveLink: "https://astonishing-lamington-31138d.netlify.app/",
     },
 
     {
