@@ -10,29 +10,30 @@ import {
 } from "react-bootstrap";
 import ProjectCards from "../ProjectCards/ProjectCards";
 import flighty from "../../assets/flighty-preview.png";
-import medium2 from "../../assets/medium2.png";
 import instagram from "../../assets/instagram-react.png";
-import oculus from "../../assets/vr-oculus.png";
-import login from "../../assets/loginjs.png";
 import colorSharp2 from "../../assets/color-sharp2.png";
 import resumePdf from "../../resume/Chukwuebuka Ifenna Okoye Tech CV.pdf";
+import credenceLanding from '../../assets/credence_landingpage.png';
+import credenceApp from '../../assets/credence_dashboard_marketplace.png';
+import cityfixApp from '../../assets/cityfix_dashboard.png';
+import cityfix from '../../assets/cityfix_landing_page.png';
 
 function Projects() {
   const projects = [
     {
-      title: "Cloning Medium 2",
+      title: "Credence Website",
       description:
-        "Cloning Medium's Landing page, the news section, HTML, CSS only project",
-      imgUrl: medium2,
-      liveLink: "https://astonishing-lamington-31138d.netlify.app/",
+        "Building a new landing page for Credence, an agri-tech business aimed at connecting farmers to a market to buy their produce",
+      imgUrl: credenceLanding,
+      liveLink: "https://credenceapp.co",
     },
 
     {
-      title: "Product Page",
+      title: "Credence Web App",
       description:
-        "Working to design from a professional figma design layout and work-flow, using HTML, CSS and Javascript",
-      imgUrl: oculus,
-      liveLink: "https://vr-oculus.netlify.app",
+        "Credence web application, the interface where buyers and farmers can interact by creating escrow, transactions and also a market place",
+      imgUrl: credenceApp,
+      liveLink: "https://credenceapp.co/auth/login",
     },
 
     {
@@ -51,18 +52,18 @@ function Projects() {
     },
 
     {
-      title: "Instagram React 2",
-      description: "Trying to clone Instagram's landing page with Reactjs",
-      imgUrl: instagram,
-      liveLink: "https://new-insta-react.netlify.app",
+      title: "Cityfix Website",
+      description: "The website for Cityfix, a platform where users can find and engage the services of artisans nearby",
+      imgUrl: cityfix,
+      liveLink: "https://cityfix.ng",
     },
 
     {
-      title: "Login form with local storage",
+      title: "Cityfix Web App",
       description:
-        "designing a simple responsive login form with local storage implemented to store the password in it",
-      imgUrl: login,
-      liveLink: "https://login-form-ls.netlify.app",
+        "The application for cityfix where artisans and users who need their services can connect and enage theirservices",
+      imgUrl: cityfixApp,
+      liveLink: "https://cityfix.ng/user/login",
     },
   ];
 

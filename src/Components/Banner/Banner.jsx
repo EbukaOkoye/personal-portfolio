@@ -67,7 +67,7 @@ function Banner() {
               from Bootstrap to TailwindCSS just for the fun of it.
             </p>
 
-            <button className="connect_btn">
+            <button className="connect_btn mx-auto">
               <a className="text-black" href="https://www.linkedin.com/in/chukwuebuka-okoye-967867229" target="_blank">Let's connect on LinkedIn</a> <ArrowRightCircle size={25} />{" "}
             </button>
           </Col>
