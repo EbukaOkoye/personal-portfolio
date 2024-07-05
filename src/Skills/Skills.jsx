@@ -2,9 +2,10 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from "../assets/meter1.svg";
-import meter2 from "../assets/meter2.svg";
-import meter3 from "../assets/meter3.svg";
+import { BiLogoTypescript } from "react-icons/bi";
+import { TiHtml5 } from "react-icons/ti";
+import { LiaReact } from "react-icons/lia";
+import { RiNextjsFill } from "react-icons/ri";
 import colorSharp from "../assets/color-sharp.png";
 
 function Skills() {
@@ -38,9 +39,7 @@ function Skills() {
             <div className="skill-bx">
               <h2>Skills</h2>
 
-              <p>
-                Some Skills I've Acquired on this Journey
-              </p>
+              <p>Some Skills I've Acquired on this Journey</p>
 
               <Carousel
                 responsive={responsive}
@@ -48,17 +47,30 @@ function Skills() {
                 className="skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="image" />
+                  <span>
+                    <TiHtml5 size={100} color="orangered" />
+                  </span>
 
                   <h5>HTML/CSS</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="image" />
+                  <span>
+                    <LiaReact size={100} color="#00d8ff" />
+                  </span>
 
-                  <h5>React/Next</h5>
+                  <h5>React</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="image" />
+                  <span>
+                    <RiNextjsFill size={100} color="#ffffff" />
+                  </span>
+
+                  <h5>Next</h5>
+                </div>
+                <div className="item">
+                  <span>
+                    <BiLogoTypescript size={100} color="#007acc" />
+                  </span>
 
                   <h5>Typescript</h5>
                 </div>
