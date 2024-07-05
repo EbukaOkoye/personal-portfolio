@@ -15,12 +15,12 @@ function Footer() {
   return (
     <footer className="footer p-4">
       <Container>
-        <Row className="align-items-center gap-2">
-          <Col sm={6}>
+        <Row className="align-items-center">
+          <Col sm={6} md={6}>
             <h2 className="title">{htmlCode}</h2>
           </Col>
 
-          <Col sm={6} className="text-center text-sm-end">
+          <Col sm={6} md={6} className="text-center text-sm-end text-md-center">
             <div className="social-icon">
               <a
                 href="https://www.facebook.com/ifenna.okoye.167"

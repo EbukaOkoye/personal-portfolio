@@ -6,6 +6,8 @@ import { BiLogoTypescript } from "react-icons/bi";
 import { TiHtml5 } from "react-icons/ti";
 import { LiaReact } from "react-icons/lia";
 import { RiNextjsFill } from "react-icons/ri";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { BsFillBootstrapFill } from "react-icons/bs";
 import colorSharp from "../assets/color-sharp.png";
 
 function Skills() {
@@ -73,6 +75,20 @@ function Skills() {
                   </span>
 
                   <h5>Typescript</h5>
+                </div>
+                <div className="item">
+                  <span>
+                    <RiTailwindCssFill size={100} color="#00d8ff" />
+                  </span>
+
+                  <h5>TailwindCSS</h5>
+                </div>
+                <div className="item">
+                  <span>
+                    <BsFillBootstrapFill size={100} color="#aa00ff" />
+                  </span>
+
+                  <h5>Bootstrap</h5>
                 </div>
               </Carousel>
             </div>
