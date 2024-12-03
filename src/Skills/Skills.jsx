@@ -8,6 +8,7 @@ import { LiaReact } from "react-icons/lia";
 import { RiNextjsFill } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { BsFillBootstrapFill } from "react-icons/bs";
+import { SiJirasoftware } from "react-icons/si";
 import colorSharp from "../assets/color-sharp.png";
 
 function Skills() {
@@ -92,7 +93,7 @@ function Skills() {
                 </div>
                 <div className="item">
                   <span>
-                    <BsFillBootstrapFill size={100} color="#aa00ff" />
+                    <SiJirasoftware size={100} color="#aa00ff" />
                   </span>
 
                   <h5>QA Software Testing</h5>
