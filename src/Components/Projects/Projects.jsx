@@ -12,11 +12,11 @@ import ProjectCards from "../ProjectCards/ProjectCards";
 import flighty from "../../assets/flighty-preview.png";
 import instagram from "../../assets/instagram-react.png";
 import colorSharp2 from "../../assets/color-sharp2.png";
-import resumePdf from "../../resume/Chukwuebuka Ifenna Okoye Tech CV.pdf";
-import credenceLanding from '../../assets/credence_landingpage.png';
-import credenceApp from '../../assets/credence_dashboard_marketplace.png';
-import cityfixApp from '../../assets/cityfix_dashboard.png';
-import cityfix from '../../assets/cityfix_landing_page.png';
+import resumePdf from "../../resume/Chukwuebuka_Ifenna_Okoye_Software_developer_Resume_202412030920211.pdf";
+import credenceLanding from "../../assets/credence_landingpage.png";
+import credenceApp from "../../assets/credence_dashboard_marketplace.png";
+import cityfixApp from "../../assets/cityfix_dashboard.png";
+import cityfix from "../../assets/cityfix_landing_page.png";
 
 function Projects() {
   const projects = [
@@ -53,7 +53,8 @@ function Projects() {
 
     {
       title: "Cityfix Website",
-      description: "The website for Cityfix, a platform where users can find and engage the services of artisans nearby",
+      description:
+        "The website for Cityfix, a platform where users can find and engage the services of artisans nearby",
       imgUrl: cityfix,
       liveLink: "https://cityfix.ng",
     },

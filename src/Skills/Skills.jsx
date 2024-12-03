@@ -90,6 +90,13 @@ function Skills() {
 
                   <h5>Bootstrap</h5>
                 </div>
+                <div className="item">
+                  <span>
+                    <BsFillBootstrapFill size={100} color="#aa00ff" />
+                  </span>
+
+                  <h5>QA Software Testing</h5>
+                </div>
               </Carousel>
             </div>
           </Col>
