@@ -65,6 +65,13 @@ function Skills() {
                 </div>
                 <div className="item">
                   <span>
+                    <LiaReact size={100} color="#00d8ff" />
+                  </span>
+
+                  <h5>React Native</h5>
+                </div>
+                <div className="item">
+                  <span>
                     <RiNextjsFill size={100} color="#ffffff" />
                   </span>
 
