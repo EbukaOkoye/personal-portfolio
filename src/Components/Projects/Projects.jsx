@@ -13,28 +13,29 @@ import flighty from "../../assets/flighty-preview.png";
 import instagram from "../../assets/instagram-react.png";
 import colorSharp2 from "../../assets/color-sharp2.png";
 import resumePdf from "../../resume/Chukwuebuka_Ifenna_Okoye_Software_developer_Resume_202412030920211.pdf";
-import credenceLanding from "../../assets/credence_landingpage.png";
-import credenceApp from "../../assets/credence_dashboard_marketplace.png";
+// import credenceLanding from "../../assets/credence_landingpage.png";
+// import credenceApp from "../../assets/credence_dashboard_marketplace.png";
+import i2iLanding from "../../assets/i2i_landing.png";
 import cityfixApp from "../../assets/cityfix_dashboard.png";
 import cityfix from "../../assets/cityfix_landing_page.png";
 
 function Projects() {
   const projects = [
     {
-      title: "Credence Website",
+      title: "Innovate to Impact",
       description:
-        "Building a new landing page for Credence, an agri-tech business aimed at connecting farmers to a market to buy their produce",
-      imgUrl: credenceLanding,
-      liveLink: "https://credenceapp.co",
+        "A tech community aimed at providing the younger generation with knowledge and help in getting into tech",
+      imgUrl: i2iLanding,
+      liveLink: "https://innovatetoimpact.vercel.app/",
     },
 
-    {
-      title: "Credence Web App",
-      description:
-        "Credence web application, the interface where buyers and farmers can interact by creating escrow, transactions and also a market place",
-      imgUrl: credenceApp,
-      liveLink: "https://credenceapp.co/auth/login",
-    },
+    // {
+    //   title: "Credence Web App",
+    //   description:
+    //     "Credence web application, the interface where buyers and farmers can interact by creating escrow, transactions and also a market place",
+    //   imgUrl: credenceApp,
+    //   liveLink: "https://credenceapp.co/auth/login",
+    // },
 
     {
       title: "Flighty Booking App",
@@ -51,21 +52,21 @@ function Projects() {
       liveLink: "https://new-insta-react.netlify.app",
     },
 
-    {
-      title: "Cityfix Website",
-      description:
-        "The website for Cityfix, a platform where users can find and engage the services of artisans nearby",
-      imgUrl: cityfix,
-      liveLink: "https://cityfix.ng",
-    },
+    // {
+    //   title: "Cityfix Website",
+    //   description:
+    //     "The website for Cityfix, a platform where users can find and engage the services of artisans nearby",
+    //   imgUrl: cityfix,
+    //   liveLink: "https://cityfix.ng",
+    // },
 
-    {
-      title: "Cityfix Web App",
-      description:
-        "The application for cityfix where artisans and users who need their services can connect and enage theirservices",
-      imgUrl: cityfixApp,
-      liveLink: "https://cityfix.ng/user/login",
-    },
+    // {
+    //   title: "Cityfix Web App",
+    //   description:
+    //     "The application for cityfix where artisans and users who need their services can connect and enage theirservices",
+    //   imgUrl: cityfixApp,
+    //   liveLink: "https://cityfix.ng/user/login",
+    // },
   ];
 
   return (
