@@ -13,7 +13,7 @@ import flighty from "../../assets/flighty-preview.png";
 import instagram from "../../assets/instagram-react.png";
 import colorSharp2 from "../../assets/color-sharp2.png";
 import resumePdf from "../../resume/Chukwuebuka_Ifenna_Okoye_Software_developer_Resume_202412030920211.pdf";
-// import credenceLanding from "../../assets/credence_landingpage.png";
+import credenceLanding from "../../assets/credence54.png";
 // import credenceApp from "../../assets/credence_dashboard_marketplace.png";
 import i2iLanding from "../../assets/i2i_landing.png";
 import cityfixApp from "../../assets/cityfix_dashboard.png";
@@ -26,16 +26,17 @@ function Projects() {
       description:
         "A tech community aimed at providing the younger generation with knowledge and help in getting into tech",
       imgUrl: i2iLanding,
-      liveLink: "https://innovatetoimpact.vercel.app/",
+      liveLink: "https://innovatetoimpact.org",
     },
 
-    // {
-    //   title: "Credence Web App",
-    //   description:
-    //     "Credence web application, the interface where buyers and farmers can interact by creating escrow, transactions and also a market place",
-    //   imgUrl: credenceApp,
-    //   liveLink: "https://credenceapp.co/auth/login",
-    // },
+    {
+      title: "Credence Website",
+      description:
+        "An Agro business that connects buyers and farmers and facilitates trade between them",
+      // "Credence web application, the interface where buyers and farmers can interact by creating escrow, transactions and also a market place",
+      imgUrl: credenceApp,
+      liveLink: "https://credence54.com",
+    },
 
     {
       title: "Flighty Booking App",
@@ -45,12 +46,12 @@ function Projects() {
       liveLink: "http://flight-advisor-app-6phr.vercel.app/",
     },
 
-    {
-      title: "Instagram React 1",
-      description: "Trying to clone Instagram's landing page with Reactjs",
-      imgUrl: instagram,
-      liveLink: "https://new-insta-react.netlify.app",
-    },
+    // {
+    //   title: "Instagram React 1",
+    //   description: "Trying to clone Instagram's landing page with Reactjs",
+    //   imgUrl: instagram,
+    //   liveLink: "https://new-insta-react.netlify.app",
+    // },
 
     // {
     //   title: "Cityfix Website",
