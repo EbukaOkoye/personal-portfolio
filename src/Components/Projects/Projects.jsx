@@ -34,7 +34,7 @@ function Projects() {
       description:
         "An Agro business that connects buyers and farmers and facilitates trade between them",
       // "Credence web application, the interface where buyers and farmers can interact by creating escrow, transactions and also a market place",
-      imgUrl: credenceApp,
+      imgUrl: credenceLanding,
       liveLink: "https://credence54.com",
     },
 
