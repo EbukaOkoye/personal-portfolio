@@ -16,8 +16,8 @@ import resumePdf from "../../resume/Chukwuebuka_Ifenna_Okoye_Software_developer_
 import credenceLanding from "../../assets/credence54.png";
 // import credenceApp from "../../assets/credence_dashboard_marketplace.png";
 import i2iLanding from "../../assets/i2i_landing.png";
-import cityfixApp from "../../assets/cityfix_dashboard.png";
-import cityfix from "../../assets/cityfix_landing_page.png";
+// import cityfixApp from "../../assets/cityfix_dashboard.png";
+// import cityfix from "../../assets/cityfix_landing_page.png";
 
 function Projects() {
   const projects = [
