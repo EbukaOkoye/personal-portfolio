@@ -12,7 +12,7 @@ import ProjectCards from "../ProjectCards/ProjectCards";
 import flighty from "../../assets/flighty-preview.png";
 import instagram from "../../assets/instagram-react.png";
 import colorSharp2 from "../../assets/color-sharp2.png";
-import resumePdf from "../../resume/Chukwuebuka_Ifenna_Okoye_Software_developer_Resume_202412030920211.pdf";
+import resumePdf from "../../resume/ChukwuebukaOkoyeResume-1.pdf";
 import credenceLanding from "../../assets/credence54.png";
 // import credenceApp from "../../assets/credence_dashboard_marketplace.png";
 import i2iLanding from "../../assets/i2i_landing.png";
